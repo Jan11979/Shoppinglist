@@ -44,6 +44,8 @@ function MyImput(props) {
         newData.name = name;
         newData.list = listData.list;
         FuckFu(newData);
+        let newListData = {"list": []};
+        setListData(newListData.list );
         console.log(name);
     }
     const handleBlur = (event) => {

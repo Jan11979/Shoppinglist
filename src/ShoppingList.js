@@ -25,7 +25,11 @@ function InputBox(props) {
 }
 export function CreateList(props) {
     let retString = "<ul>";
-    let size2 = props.length;
+    let size2 = 0;
+    if (props !== undefined) {
+        size2 = props.length;
+    }
+
     for (let i2 = 0; i2 < size2; i2++) {
         retString += "<li>" + props[i2] + "</li>";
     }
@@ -35,7 +39,11 @@ export function CreateList(props) {
 
 function GetListe(props) {
     let retString = "<div >";
-    let size = props.data.length;
+    let size = 0;
+    if (props !== undefined) {
+        size = props.data.length;
+    }
+
     for (let i = 0; i < size; i++) {
         retString += "<div class=\"EinkaufElement\">";
         retString += "<h1>Shoppingliste für " + props.data[i].name + "</h1>";
