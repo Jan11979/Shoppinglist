@@ -1,0 +1,21 @@
+.inputBigBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    border: 5px solid #4cf50e;
+}
+.inputBlock1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border: 5px solid #ebf3e8;
+}
+.inputBlock2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border: 5px solid #e8efe5;
+}

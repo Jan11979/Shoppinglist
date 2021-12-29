@@ -1,0 +1,31 @@
+.Body {
+    margin: 1rem;
+    background-color: #282c34;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border: 10px solid #f50ecf;
+    box-shadow: 0 4px 4px 0 #147be3;
+}
+.LeftBody {
+    justify-content: center;
+    margin: 1rem;
+    border: 10px solid #f8f8f8;
+    box-shadow: 0 4px 4px 0 #147be3;
+}
+.MidBody {
+    /*  width: 600px; */
+    width: 100%;
+    border: 10px solid #4cf50e;
+    box-shadow: 0 4px 4px 0 #147be3;
+}
+
+.RightBody {
+    margin: 1rem;
+    border: 10px solid #ffffff;
+    box-shadow: 0 4px 4px 0 #147be3;
+}
